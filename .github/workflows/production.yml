@@ -1,5 +1,5 @@
 ---
-name: "Study of github actions workflow"
+name: "Flipkart app image build and deploy"
 
 
 on:
