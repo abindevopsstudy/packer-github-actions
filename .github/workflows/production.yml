@@ -29,11 +29,11 @@ jobs:
 
       - name: "Packer init by setting up working directory"
         run: packer init .
-        working_directory: ./packer/
+        working-directory: ./packer/
 
       - name: "Packer validate"
         run: packer validate .
-        working_directory: ./packer/
+        working-directory: ./packer/
 
       - name: "Packer build"
         run: packer build ./packer
