@@ -7,7 +7,7 @@ on:
     branches:
       - master
       - testing
-      - development
+      - production
 jobs:
 
   build:
