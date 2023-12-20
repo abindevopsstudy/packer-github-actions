@@ -36,4 +36,5 @@ jobs:
         working-directory: ./packer/
 
       - name: "Packer build"
-        run: packer build ./packer/
+        run: packer build .
+        working-directory: ./packer/
