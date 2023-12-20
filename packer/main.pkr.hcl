@@ -14,8 +14,8 @@ build {
   sources = ["source.amazon-ebs.flipkart"]
 
   provisioner "file" {
-    script          = "../website"
-    execute_command = "/tmp"
+    source          = "../website"
+    destination = "/tmp"
   }
  
   provisioner "shell" {
